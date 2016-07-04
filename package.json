@@ -1,0 +1,23 @@
+{
+  "name": "lab7",
+  "version": "1.0.0",
+  "description": "unit testing",
+  "main": "tutorial.js",
+  "dependencies": {
+    "blanket": "^1.2.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+  "config":{
+		"blanket":{
+			"pattern":["lib.js"],
+			"data-cover-never":"node_modules"
+		}
+	}
+}
