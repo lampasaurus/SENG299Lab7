@@ -22,6 +22,12 @@ describe('factorialTester', function(){
 	it('should return 120 when n is 5', function(){
 		assert.equal(factorial(5), 120);
 	})
+	before(function(){
+		console.log("all test cases completed");
+	})
+	after(function(){
+		console.log("all test cases completed");
+	})
 })
 
 describe('stringToArrayTester', function(){
